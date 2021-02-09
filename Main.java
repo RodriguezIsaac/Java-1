@@ -31,6 +31,13 @@ public class Main {
         String username = myObj.nextLine();//Reads User Input
         System.out.println("The Username you entered is " + username);
 
+	//Code for Conditional Statement
+        int x = 20;
+        int y = 15;
+        if (x > y) {
+            System.out.println("x is greater than y");
+        }    
+	    
         //Code for Looping
         for(int i = -4; i < 0; ++i) {
             System.out.println(i);
