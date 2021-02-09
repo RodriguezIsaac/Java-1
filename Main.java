@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Scanner;//Scanner Class aka User Input
+import java.util.Random;
 
 public class Main {
 
@@ -31,13 +32,17 @@ public class Main {
         String username = myObj.nextLine();//Reads User Input
         System.out.println("The Username you entered is " + username);
 
-	//Code for Conditional Statement
-        int x = 20;
-        int y = 15;
+        //Code for Conditional Statement
+        Random rand = new Random();
+        int x = rand.nextInt(51);
+        int y = rand.nextInt(51);
         if (x > y) {
             System.out.println("x is greater than y");
-        }    
-	    
+            }
+        else {
+            System.out.println("x is not greater than y");
+        }
+
         //Code for Looping
         for(int i = -4; i < 0; ++i) {
             System.out.println(i);
