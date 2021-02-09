@@ -7,6 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        System.out.print("This line is different from the next line. ");//Prints on the same line in the console
         System.out.println("Hello World");
         System.out.println("4 + 50");
         System.out.println(6 + 29);
